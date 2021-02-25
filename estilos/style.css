@@ -1,0 +1,39 @@
+.cajon-hijo {
+  width: 40%;
+  margin: auto;
+  background-color: aqua;
+}
+
+.cajon-hijo .titulo {
+  color: red;
+  font-size: 15px;
+  font-family: "times new roman";
+}
+
+.cajon-hijo .texto {
+  color: red;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cajon-hijo .a {
+  color: red;
+  font-size: 30px;
+}
+
+.cajon-hijo .a:hover {
+  color: blueviolet;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  font-family: 'algerian';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.cajon-hijo{
+    width: 40%;
+    margin: auto;
+    background-color: aqua;
+    .titulo{
+        color: $color-rojo;
+        font-size: 15px;
+        font-family: $letra;
+    }
+    .texto{
+        color: $color-rojo;
+        font-size: $tamano;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .a{
+        color: $color-rojo;
+        font-size: $tamano;
+        &:hover{
+            color: blueviolet;
+            transition: $efecto;
+            font-family: 'algerian';
+        }
+    }
+}
